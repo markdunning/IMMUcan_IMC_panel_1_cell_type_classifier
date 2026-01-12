@@ -5,7 +5,7 @@
 In [IMMUcan](https://immucan.eu/) patient samples are collected from 2019 until August 2025 for multimodal analysis. Imaging Mass Cytometry is applied to all collected samples using two antibody panels. To identify cell phenotypes continuously over time we trained a random forest classifier on labelled single-cell data from a total of 179 images from 179 patients across 5 cancer indications (breast cancer,renal cell carcinoma, colorectal cancer, head and neck cancer, non-small cell lung cancer). The classifier is used to classify single-cell data from panel 1 for all patients within IMMUcan.
 
 ## Data
-The data has been deposited at Zenodo: [data](10.5281/zenodo.12912567): Once downloaded all data should be stored in one folder which can be used as the base folder to run all code in this repo.
+The data has been deposited at Zenodo: [data](https://zenodo.org/records/12912567): Once downloaded all data should be stored in one folder which can be used as the base folder to run all code in this repo.
 
 The Zenodo repo contains the following:
 - _sce_labelled_V1.rds_ a `SingleCellExperiment` object containing all labelled cells from the first batch of labelling
